@@ -1,0 +1,13 @@
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.ws -text
+*.w3strings binary
+*.bundle binary
+*.cache binary
+*.store binary
+*.blend binary
+*.glb binary
+*.fbx binary
+*.wav binary
+*.png binary

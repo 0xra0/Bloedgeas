@@ -1,0 +1,13 @@
+{
+    "name": "dlcvampsword",
+    "modName": "Bloedgeas",
+    "version": "1.0",
+    "gameVersion": "29",
+    "description": "Bloedgeas, a blood-oath steel sword",
+    "author": "home",
+    "idSpace": 7319,
+    "workshopId": 0,
+    "succesfullyCooked": true,
+    "dependencies": [],
+    "useLooseScripts": true
+}

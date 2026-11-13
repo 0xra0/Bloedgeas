@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{44E642DC-DC72-480F-8C87-07F51FB107E3}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{44E642DC-DC72-480F-8C87-07F51FB107E3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="bloedgeas_test" ID="{046DCEFE-63B2-4229-9591-E2FF29F600F5}" ShortID="813349011">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Combat_weapon" ID="{C43AF551-61F4-4664-9E9B-37F9B4BCC17E}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="bloedgeas_test" ID="{8376ABFE-4380-4A54-ADC7-B739145C4343}">
+							<Language>SFX</Language>
+							<AudioFile>bloedgeas_test.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="981140311"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="bloedgeas_test" ID="{8376ABFE-4380-4A54-ADC7-B739145C4343}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="bloedgeas_hit" ID="{C5FE3E75-C425-4DE7-AEB7-564973E06ADF}" ShortID="780585188">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Combat_weapon" ID="{C43AF551-61F4-4664-9E9B-37F9B4BCC17E}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="bloedgeas_hit" ID="{36ECB49B-9F6A-4193-B239-9C27B5EAD829}">
+							<Language>SFX</Language>
+							<AudioFile>bloedgeas_hit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1002908904"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="bloedgeas_hit" ID="{36ECB49B-9F6A-4193-B239-9C27B5EAD829}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="bloedgeas_hit_rnd" ID="{8DCE926D-C07E-42C6-A63D-263B8C366A8E}" ShortID="337151637">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{66C1A321-1117-41DC-B866-CA81B329A3FA}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-150"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Combat_weapon" ID="{C43AF551-61F4-4664-9E9B-37F9B4BCC17E}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="bloedgeas_hit" ID="{693DE09A-5DE0-45A5-840F-8F4F34925D80}" ShortID="472607736">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bloedgeas_hit" ID="{81E5007B-6F04-406B-A3F3-3B23898296CF}">
+									<Language>SFX</Language>
+									<AudioFile>bloedgeas_hit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1002908904"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bloedgeas_hit" ID="{81E5007B-6F04-406B-A3F3-3B23898296CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="bloedgeas_hit_b" ID="{35C591F2-80CF-4621-9F19-460FCED0E854}" ShortID="529526143">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bloedgeas_hit_b" ID="{8DA49CCC-56CC-4388-BCA3-3A0EBD814E37}">
+									<Language>SFX</Language>
+									<AudioFile>bloedgeas_hit_b.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="412530762"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bloedgeas_hit_b" ID="{8DA49CCC-56CC-4388-BCA3-3A0EBD814E37}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="bloedgeas_hit_c" ID="{1B3DF86F-14A1-4CDF-A568-E16FA1639519}" ShortID="806177730">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bloedgeas_hit_c" ID="{E026E73E-283D-47DB-B797-6325A2C7F4B2}">
+									<Language>SFX</Language>
+									<AudioFile>bloedgeas_hit_c.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="587060338"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bloedgeas_hit_c" ID="{E026E73E-283D-47DB-B797-6325A2C7F4B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="bloedgeas_bleed_rnd" ID="{F9FB9DDD-CB8F-4D58-B655-03B5F30AD777}" ShortID="499562641">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4AADF919-9974-4C12-A770-CE7172A596D3}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Combat_weapon" ID="{C43AF551-61F4-4664-9E9B-37F9B4BCC17E}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="bloedgeas_bleed" ID="{01C44009-9B50-48E9-BF4C-A50F6A7E29E5}" ShortID="650493892">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bloedgeas_bleed" ID="{C48DD677-E939-40DD-B6D7-84ACFF1D8DFB}">
+									<Language>SFX</Language>
+									<AudioFile>bloedgeas_bleed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="327059591"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bloedgeas_bleed" ID="{C48DD677-E939-40DD-B6D7-84ACFF1D8DFB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="bloedgeas_bleed_b" ID="{30A3A90D-7B31-4938-AFA3-A21639C5699B}" ShortID="228848219">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bloedgeas_bleed_b" ID="{A230BB72-1052-4692-B271-821B4F0ADE76}">
+									<Language>SFX</Language>
+									<AudioFile>bloedgeas_bleed_b.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="545488188"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bloedgeas_bleed_b" ID="{A230BB72-1052-4692-B271-821B4F0ADE76}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="bloedgeas_heartbeat_rnd" ID="{EDC61B06-F309-45E7-A5CA-AB479E6E4727}" ShortID="676154737">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A57A58A9-307A-4883-962D-5BCF9345E522}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Combat_weapon" ID="{C43AF551-61F4-4664-9E9B-37F9B4BCC17E}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="bloedgeas_heartbeat" ID="{F5C39671-1223-43E1-B6F9-49F6ADE34FCC}" ShortID="334239928">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A4D3F3A-BE00-46B8-9C3F-24339B3C37A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D512BDDA-BD6C-4399-96E3-F819CD152AA0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bloedgeas_heartbeat" ID="{8DA78A46-650D-4B7D-AC1D-692870DD57E7}">
+									<Language>SFX</Language>
+									<AudioFile>bloedgeas_heartbeat.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="53318458"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bloedgeas_heartbeat" ID="{8DA78A46-650D-4B7D-AC1D-692870DD57E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

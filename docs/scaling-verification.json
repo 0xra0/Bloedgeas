@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-11-13T00:29:41.746299",
+  "player_level": 54,
+  "sword_level_before": 42,
+  "sword_level_after": 54,
+  "base_damage_before": 369,
+  "base_damage_after": 465,
+  "damage_increase": 96,
+  "tracked_upgrade_count": 12,
+  "runtime_evidence": [
+    "22:28:18.683 lua: BLOEDGEAS_VERIFY player=54 ready=true copies=1 | item=1 level=42 damage_base=369.0 tracked=0 baseline=42",
+    "22:28:29.892 lua: BLOEDGEAS_VERIFY player=54 ready=true copies=1 | item=1 level=54 damage_base=465.0 tracked=12 baseline=42",
+    "22:28:29.892 lua: BLOEDGEAS_VERIFY PASS"
+  ],
+  "manual_scaler_command_used": false,
+  "compiler_errors": 0
+}

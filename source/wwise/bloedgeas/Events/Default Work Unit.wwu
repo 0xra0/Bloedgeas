@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7D547ADF-9656-424F-8797-401415C7CDAF}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7D547ADF-9656-424F-8797-401415C7CDAF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_bloedgeas_test" ID="{2F3267BE-500B-411F-98BA-F6CCA737A5F1}">
+					<ChildrenList>
+						<Action Name="" ID="{EB4AEF36-ECCE-4516-9A31-E5377919E44B}" ShortID="490016594">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bloedgeas_test" ID="{046DCEFE-63B2-4229-9591-E2FF29F600F5}" WorkUnitID="{44E642DC-DC72-480F-8C87-07F51FB107E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_bloedgeas_hit" ID="{6614735A-2EC5-4693-8A45-85D68115A21B}">
+					<ChildrenList>
+						<Action Name="" ID="{C89101E4-DF8D-493C-8E66-F1DDC547C67B}" ShortID="260076835">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bloedgeas_hit_rnd" ID="{8DCE926D-C07E-42C6-A63D-263B8C366A8E}" WorkUnitID="{44E642DC-DC72-480F-8C87-07F51FB107E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_bloedgeas_bleed" ID="{24C3F7EC-3951-4AD1-AE57-68616E01140A}">
+					<ChildrenList>
+						<Action Name="" ID="{6D8B4720-1D35-4972-88BF-52C9EF2754AB}" ShortID="154418770">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bloedgeas_bleed_rnd" ID="{F9FB9DDD-CB8F-4D58-B655-03B5F30AD777}" WorkUnitID="{44E642DC-DC72-480F-8C87-07F51FB107E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_bloedgeas_heartbeat" ID="{7796F8F9-F293-40F9-A87A-833D2CC255EC}">
+					<ChildrenList>
+						<Action Name="" ID="{FEB15955-4CA6-48D8-A75E-AC32B534E0AC}" ShortID="121914416">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bloedgeas_heartbeat_rnd" ID="{EDC61B06-F309-45E7-A5CA-AB479E6E4727}" WorkUnitID="{44E642DC-DC72-480F-8C87-07F51FB107E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_bloedgeas_heartbeat" ID="{479F5EBF-FAFC-4827-9586-CC6AC5A6FF2D}">
+					<ChildrenList>
+						<Action Name="" ID="{4D11418A-7661-456B-89B5-96AD8589D365}" ShortID="1057551259">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bloedgeas_heartbeat_rnd" ID="{EDC61B06-F309-45E7-A5CA-AB479E6E4727}" WorkUnitID="{44E642DC-DC72-480F-8C87-07F51FB107E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

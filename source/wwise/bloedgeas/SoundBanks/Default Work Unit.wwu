@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1AC0A0C4-C582-42DD-A1EF-2DC7CAB63D77}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{1AC0A0C4-C582-42DD-A1EF-2DC7CAB63D77}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="bloedgeas" ID="{C1A1B19E-370F-4EF0-89C4-FCCAAA4B3004}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_bloedgeas_heartbeat" ID="{7796F8F9-F293-40F9-A87A-833D2CC255EC}" WorkUnitID="{7D547ADF-9656-424F-8797-401415C7CDAF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_bloedgeas_hit" ID="{CEB385FE-774D-430D-9A52-DE4884C3D4C0}" WorkUnitID="{7D547ADF-9656-424F-8797-401415C7CDAF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_bloedgeas_hit" ID="{6614735A-2EC5-4693-8A45-85D68115A21B}" WorkUnitID="{7D547ADF-9656-424F-8797-401415C7CDAF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_bloedgeas_heartbeat" ID="{479F5EBF-FAFC-4827-9586-CC6AC5A6FF2D}" WorkUnitID="{7D547ADF-9656-424F-8797-401415C7CDAF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_bloedgeas_test" ID="{D75797BD-24CB-4900-BC8D-B69C361553CD}" WorkUnitID="{7D547ADF-9656-424F-8797-401415C7CDAF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_bloedgeas_bleed" ID="{24C3F7EC-3951-4AD1-AE57-68616E01140A}" WorkUnitID="{7D547ADF-9656-424F-8797-401415C7CDAF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_bloedgeas_hit" ID="{E032A2A0-1EDF-4CE2-8138-8C4E7F55688D}" WorkUnitID="{7D547ADF-9656-424F-8797-401415C7CDAF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_bloedgeas_hit" ID="{D35334D7-B171-4D02-B7FC-1C96201191AC}" WorkUnitID="{7D547ADF-9656-424F-8797-401415C7CDAF}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

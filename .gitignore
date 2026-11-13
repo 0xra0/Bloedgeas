@@ -1,0 +1,50 @@
+# Local archive inventories and private project history
+/history/
+/COPY-MANIFEST.json
+/SHA256SUMS
+/reference/
+/dist/
+
+# Publish the current v6 assets, not the earlier model archive.
+/source/3D/*
+!/source/3D/KnightSword_vamp_v6.blend
+!/source/3D/KnightSword_vamp_v6_LP.glb
+!/source/3D/KnightSword_vamp_v6_scabbard.blend
+!/source/3D/KnightSword_vamp_v6_scabbard_LP.glb
+!/source/3D/KnightSword_vamp_v6_tex/
+/source/3D/KnightSword_vamp_v6_tex/mod/
+/source/3D/KnightSword_vamp_v6_tex/w3ref/
+/source/3D/KnightSword_vamp_v6_tex/wcc_ref/
+/source/3D/KnightSword_vamp_v6_tex/geralt_ref.blend
+/source/3D/KnightSword_vamp_v6_tex/dlc_src/build_*/
+/source/3D/KnightSword_vamp_v6_tex/dlc_src/ref/
+/source/3D/KnightSword_vamp_v6_tex/audio/build/
+/source/3D/KnightSword_vamp_v6_tex/audio/src/bloedgeas_test.wav
+
+# Only sword-related shared build helpers.
+/source/support/romance-mod-tools/*
+!/source/support/romance-mod-tools/cr2wbuild.py
+!/source/support/romance-mod-tools/rigbones.py
+!/source/support/romance-mod-tools/merge_texcache.py
+!/source/support/romance-mod-tools/tint_texcache.py
+!/source/support/romance-mod-tools/texcache_dds.py
+
+# Old audio experiments; final audio sources are under source/.
+/craft-out/bloedgeas_hit_v1.wav
+/craft-out/bloedgeas_hit_v2.wav
+/craft-out/bloedgeas_sfx.scsession
+
+# Generated files, local settings, and editor backups.
+**/.cache/
+**/GeneratedSoundBanks/
+*.validationcache
+*.wsettings
+*.blend1
+*.blend2
+*.noicon
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
